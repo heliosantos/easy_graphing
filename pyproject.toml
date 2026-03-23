@@ -1,0 +1,17 @@
+[project]
+name = "easy_graphing"
+version = "1.0.0"
+authors = [
+    { name="Hélio Santos", email="heliosantos99@gmail.com" },
+]
+description = "A matplotlib wrapper"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'matplotlib',
+  "ruff>=0.15.7",
+]
